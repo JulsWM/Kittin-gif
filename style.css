@@ -1,3 +1,24 @@
 .container {
   text-align: center;
 }
+.btn:after {
+  content: "";
+}
+.btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+.nothing-yet {
+  display: block;
+  margin-top: 44px;
+  font-size: 44px;
+}
+.nothing-yet-hidden {
+  display: none;
+}
+.rando-gliph-img {
+  padding: 40px;
+  width: 80%;
+}
